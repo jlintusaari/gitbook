@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Notes](README.md)
+
+## C++
+
+* [Debugging pybind11 modules with CLion](c++/debugging-pybind11-modules-with-clion.md)
 
