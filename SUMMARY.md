@@ -5,6 +5,7 @@
 ## C++
 
 * [Debugging pybind11 modules with CLion](c++/debugging-pybind11-modules-with-clion.md)
+* [CMake](c++/cmake.md)
 
 ## Linux
 
