@@ -8,5 +8,5 @@
 
 ## Linux
 
-* [Throttling](linux/throttling.md)
+* [Various issues](linux/throttling.md)
 

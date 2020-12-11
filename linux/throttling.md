@@ -1,8 +1,18 @@
 ---
-description: Thermal daemon caused my Ubuntu 16.04 to throttle
+description: Links and resources fixing various issues with Ubuntu 16.04
 ---
 
-# Throttling
+# Various issues
+
+### Mouse sensitivity
+
+[https://askubuntu.com/questions/8506/decrease-mouse-sensitivity-below-the-standard-limit](https://askubuntu.com/questions/8506/decrease-mouse-sensitivity-below-the-standard-limit)
+
+### System shortcut issues with JetBrains IDE:s
+
+[https://stackoverflow.com/questions/44871910/how-to-disable-alt-f-e-v-menu-shortcuts-in-intellij](https://stackoverflow.com/questions/44871910/how-to-disable-alt-f-e-v-menu-shortcuts-in-intellij)
+
+### Thermal daemon caused Ubuntu 16.04 to throttle
 
 I fixed it by 
 
