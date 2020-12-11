@@ -10,3 +10,7 @@
 
 * [Various issues](linux/throttling.md)
 
+## Windows
+
+* [Notes on DPI and resolution](windows/notes-on-dpi-and-resolution.md)
+
