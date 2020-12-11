@@ -12,3 +12,12 @@ My 15" laptop has screen dimensions of 34.5cm x 19.5cm \(13.6in x 7.7in\). To ma
 
 Currently I'm using 1920 x 1080 with a 125% scaling, so Windows says my DPI is 120 although in reality it is 140.
 
+### Links relating to DPI and Windows DPI awareness
+
+* [https://stackoverflow.com/questions/44398075/can-dpi-scaling-be-enabled-disabled-programmatically-on-a-per-session-basis](https://stackoverflow.com/questions/44398075/can-dpi-scaling-be-enabled-disabled-programmatically-on-a-per-session-basis)
+* [https://stackoverflow.com/questions/50253948/query-windows-10-8-monitor-scaling-from-python-script](https://stackoverflow.com/questions/50253948/query-windows-10-8-monitor-scaling-from-python-script)
+* [https://docs.microsoft.com/en-us/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows?redirectedfrom=MSDN\#common-pitfalls-win32](https://docs.microsoft.com/en-us/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows?redirectedfrom=MSDN#common-pitfalls-win32)
+* [https://github.com/rr-/screeninfo](https://github.com/rr-/screeninfo)
+* [https://gist.github.com/tlatsas/5311181](https://gist.github.com/tlatsas/5311181)
+* [https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/mt846517\(v=vs.85\)](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/mt846517%28v=vs.85%29)
+
