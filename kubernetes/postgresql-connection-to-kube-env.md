@@ -1,4 +1,4 @@
-# Postgresql connection to Kube env
+# psql in a kube env
 
 ```text
 kubectl run -it --rm psql --image=postgres /bin/bash

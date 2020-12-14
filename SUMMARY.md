@@ -17,5 +17,5 @@
 
 ## Kubernetes
 
-* [Postgresql connection to Kube env](kubernetes/postgresql-connection-to-kube-env.md)
+* [psql in a kube env](kubernetes/postgresql-connection-to-kube-env.md)
 
