@@ -19,3 +19,7 @@
 
 * [psql in a kube env](kubernetes/postgresql-connection-to-kube-env.md)
 
+## Other
+
+* [Styling & readability](other/styling-and-readability.md)
+
