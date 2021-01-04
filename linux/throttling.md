@@ -16,7 +16,8 @@ description: Links and resources fixing various issues with Ubuntu 16.04
 
 I fixed it by 
 
-* Removing the Ubuntu default thermal daemon
+* Checking cpu utilization levels under CPU intensive task: `lscpu | grep MHz` \(if they are not 100 % then throttling is occurring\)
+* Removing the Ubuntu default thermal daemon  `sudo systemctl disable thermald && sudo reboot`
 * cloning [https://github.com/intel/thermal\_daemon](https://github.com/intel/thermal_daemon)
 * Building and installing the updated daemon
 
