@@ -21,9 +21,6 @@
 
 ## Other
 
+* [Productivity](other/productivity.md)
 * [Styling & readability](other/styling-and-readability.md)
-
----
-
-* [Productivity](productivity.md)
 
