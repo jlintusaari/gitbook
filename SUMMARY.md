@@ -15,9 +15,11 @@
 
 * [Notes on DPI and resolution](windows/notes-on-dpi-and-resolution.md)
 
-## Kubernetes
+## Docker
 
-* [psql in a kube env](kubernetes/postgresql-connection-to-kube-env.md)
+* [Virtual screen buffer inside a container](docker/virtual-screen-buffer-inside-container.md)
+* [X11 sharing](docker/x11-sharing.md)
+* [psql in a kube env](docker/postgresql-connection-to-kube-env.md)
 
 ## Other
 
