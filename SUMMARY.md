@@ -23,6 +23,11 @@
 
 ## Other
 
+* [Git](other/git.md)
 * [Productivity](other/productivity.md)
 * [Styling & readability](other/styling-and-readability.md)
+
+---
+
+* [Playwright](playwright.md)
 
