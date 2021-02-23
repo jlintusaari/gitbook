@@ -23,6 +23,7 @@
 
 ## Other
 
+* [Azure pipelines](other/azure-pipelines.md)
 * [Git](other/git.md)
 * [Productivity](other/productivity.md)
 * [Styling & readability](other/styling-and-readability.md)
