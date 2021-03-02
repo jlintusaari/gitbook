@@ -64,6 +64,34 @@ Do not treat templates as if they were functions. They really are just compiled 
 
 Use stages or jobs to branch out and funnel back in the pipeline.
 
+### Starting Jenkins builds
+
+Jenkins builds can be started from Azure DevOps with the `JenkinsQueueJob` . You need to create a service connection for Jenkins in Azure DevOps. Then in your pipeline simply:
+
+```text
+  - job: triggerJenkinsBuilds
+    displayName: Trigger Jenkins builds
+    # This is here just for the sake of an example, a dependency to a previous job
+    dependsOn: DependencyJob
+    variables:
+      version: $[ dependencies.DependencyJob.outputs['step_name.var_name'] ]
+    steps:
+      - task: JenkinsQueueJob@2
+        displayName: Build windows installer
+        inputs:
+          serverEndpoint: jenkins-service-connection-name
+          jobName: jenkins-job-name
+          #isMultibranchJob: # Optional
+          #multibranchPipelineBranch: # Required when isMultibranchJob == True
+          #captureConsole: true
+          #capturePipeline: true # Required when captureConsole == True
+          # This is important to be correct if the job is parametrized
+          isParameterizedJob: true
+          jobParameters: |
+            VERSION=$(version)
+
+```
+
 ### Useful links:
 
 {% embed url="https://stackoverflow.com/questions/61729574/azure-devops-multistage-pipeline-yaml-how-to-checkout-multiple-repos" %}
