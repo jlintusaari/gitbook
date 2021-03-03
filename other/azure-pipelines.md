@@ -92,6 +92,23 @@ Jenkins builds can be started from Azure DevOps with the `JenkinsQueueJob` . You
 
 ```
 
+### Enabling Git commands
+
+You need to [set permissions](https://docs.microsoft.com/en-us/azure/devops/pipelines/scripts/git-commands?view=azure-devops&tabs=yaml) to enable Azure pipeline git account to make changes to the repository. In addition, in the checkout step, you need to persist the repository access token with:
+
+```text
+steps:
+- checkout: self
+  persistCredentials: true
+```
+
+Finally in the pipeline code, you need to make sure you have provided identity information for git that will show up e.g. in commits. This can be done with:
+
+```text
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ### Useful links:
 
 {% embed url="https://stackoverflow.com/questions/61729574/azure-devops-multistage-pipeline-yaml-how-to-checkout-multiple-repos" %}
