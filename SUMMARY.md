@@ -23,6 +23,7 @@
 
 ## Other
 
+* [Color spaces](other/color-spaces.md)
 * [Azure pipelines](other/azure-pipelines.md)
 * [Git](other/git.md)
 * [Productivity](other/productivity.md)
