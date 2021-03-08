@@ -23,13 +23,11 @@
 
 ## Other
 
+* [Computer vision](other/computer-vision.md)
+* [Playwright](other/playwright.md)
 * [Color spaces](other/color-spaces.md)
 * [Azure pipelines](other/azure-pipelines.md)
 * [Git](other/git.md)
 * [Productivity](other/productivity.md)
 * [Styling & readability](other/styling-and-readability.md)
-
----
-
-* [Playwright](playwright.md)
 
