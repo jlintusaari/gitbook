@@ -38,6 +38,14 @@ These are confusing enough to require a page titled ["Understand variable syntax
 
 ![A table aiming to explain the variable syntaxes](../.gitbook/assets/image%20%281%29.png)
 
+### Conditions
+
+```text
+# Job condition with a template or pipeline parameter
+job: Job
+condition: eq('${{ parameters.release }}', 'false')
+```
+
 ### Things that may trip you
 
 #### Checkout
