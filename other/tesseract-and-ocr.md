@@ -13,3 +13,11 @@
 tesseract image.png stdout -c tessedit_char_whitelist=abc
 ```
 
+### Tesserocr
+
+```text
+# Disable adaptive classifier
+# https://github.com/tesseract-ocr/tesseract/issues/1535
+self._api.SetVariable('classify_enable_learning', 'false')
+```
+
