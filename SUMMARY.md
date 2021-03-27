@@ -23,6 +23,7 @@
 
 ## Other
 
+* [Tesseract & OCR](other/tesseract-and-ocr.md)
 * [Computer vision](other/computer-vision.md)
 * [Playwright](other/playwright.md)
 * [Color spaces](other/color-spaces.md)
