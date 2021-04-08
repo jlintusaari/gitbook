@@ -23,6 +23,7 @@
 
 ## Other
 
+* [Robot Framework](other/robot-framework.md)
 * [Putting up a SaaS](other/putting-up-a-saas.md)
 * [Tesseract & OCR](other/tesseract-and-ocr.md)
 * [Computer vision](other/computer-vision.md)
