@@ -1,14 +1,22 @@
 # Robot Framework
 
-Accessing library instance attributes
+rfdebug tricks
 
 ```text
-Library  MyLib
+Import Library  MyLib
 
-Test Case
-    ${lib}    Get Library Instance    MyLib
-    ${lib.attribute}    Set Variable    value
-    ${test}    Set Variable    ${lib.attribute}
-    Log To Console    ${test}  
+
+${lib}    Get Library Instance    MyLib
+
+# Run a method or get attribute
+${lib.method()}
+${lib.attribute}
+    
+# Run sequentially
+Catenate  ${lib.method1()}  ${lib.method2()}
+    
+# Set attribute or variable
+${lib.attribute}    Set Variable    value
+${var}              Set Variable    ${lib.attribute}
 ```
 
