@@ -23,6 +23,7 @@
 
 ## Other
 
+* [Stats](other/stats.md)
 * [RDP](other/rdp.md)
 * [Robot Framework](other/robot-framework.md)
 * [Putting up a SaaS](other/putting-up-a-saas.md)
