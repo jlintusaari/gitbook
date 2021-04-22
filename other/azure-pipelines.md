@@ -32,7 +32,7 @@ The notation `${{ variable }}` is rendered during template rendering and must be
 
 These are confusing enough to require a page titled ["Understand variable syntax"](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch#understand-variable-syntax). There are
 
-* `${{ variables.var }}` for templates. These are substituted when templates are compiled.
+* `${{ parameters.var }}` for templates. These are substituted when templates are compiled.
 * `$[variables.var]` for runtime use. According to docs designed for conditions and expressions.
 * `$(var)` for other \(general\) runtime use.
 
