@@ -4,7 +4,7 @@ description: My notes on how Azure Pipelines works and what is possible with it.
 
 # Azure pipelines
 
-[Documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops)  \|  [YAML reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema)
+[Documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops)  \|  [YAML reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema) \| [Predefined variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml)
 
 ### Organization of work
 
