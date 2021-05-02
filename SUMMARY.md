@@ -23,6 +23,7 @@
 
 ## Other
 
+* [Reading Journal](other/reading-journal.md)
 * [Stats](other/stats.md)
 * [RDP](other/rdp.md)
 * [Robot Framework](other/robot-framework.md)
