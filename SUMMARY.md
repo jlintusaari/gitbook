@@ -13,6 +13,7 @@
 
 ## Windows
 
+* [Powershell](windows/powershell.md)
 * [Notes on DPI and resolution](windows/notes-on-dpi-and-resolution.md)
 
 ## Docker
