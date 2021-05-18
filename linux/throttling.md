@@ -6,7 +6,21 @@ description: Links and resources fixing various issues with Ubuntu 16.04
 
 ### Mouse sensitivity
 
-[https://askubuntu.com/questions/8506/decrease-mouse-sensitivity-below-the-standard-limit](https://askubuntu.com/questions/8506/decrease-mouse-sensitivity-below-the-standard-limit)
+{% embed url="https://askubuntu.com/questions/8506/decrease-mouse-sensitivity-below-the-standard-limit" %}
+
+```text
+# .bashrc
+
+# Find the external mouse id
+# Lines not containing DELL but containing Mouse or M325 and just print the \2 group containing the numeric id
+XID=$(xinput | sed -n '/DELL/! s/.*\(Mouse\|M325\).*id=\([0-9]*\).*/\2/p')
+if [ ! -z "$XID" ]; then
+    echo "Modifying xinput for Mouse $XID"
+    xinput set-prop $XID "Device Accel Profile" -1
+    xinput set-prop $XID "Device Accel Constant Deceleration" 1.8
+fi
+
+```
 
 ### System shortcut issues with JetBrains IDE:s
 
