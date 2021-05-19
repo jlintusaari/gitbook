@@ -1,4 +1,11 @@
 # Powershell
 
-[Bash-like completions](https://stackoverflow.com/questions/8264655/how-to-make-powershell-tab-completion-work-like-bash)
+```text
+# File Documents\WindowsPowerShell\profile.ps1
+
+# Bash style tab completions
+Set-PSReadlineKeyHandler -Key Tab -Function Complete
+# Close terminal with Ctrl+d
+Set-PSReadlineKeyHandler -Chord Ctrl+d -Function DeleteCharOrExit
+```
 
