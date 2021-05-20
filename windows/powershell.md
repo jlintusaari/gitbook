@@ -9,3 +9,10 @@ Set-PSReadlineKeyHandler -Key Tab -Function Complete
 Set-PSReadlineKeyHandler -Chord Ctrl+d -Function DeleteCharOrExit
 ```
 
+## Setting Environment Variables
+
+```text
+# Setting environment variable PACKAGE_ROOT using current directory
+$env:PACKAGE_ROOT=$pwd.Path+"\package_1_0"
+```
+
