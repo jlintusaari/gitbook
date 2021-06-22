@@ -24,6 +24,7 @@
 
 ## Other
 
+* [VMware](other/vmware.md)
 * [Reading Journal](other/reading-journal.md)
 * [Stats](other/stats.md)
 * [RDP](other/rdp.md)
